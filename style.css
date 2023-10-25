@@ -21,9 +21,7 @@ body {
   margin-top: 14px;
   margin-bottom: 50px;
 }
-.nav-container img {
-  width: 50px;
-}
+
 .links {
   display: flex;
   gap: 10px;
@@ -38,10 +36,10 @@ body {
 
 .logo {
   padding: 20px;
-  /* width: 5px; */
 }
+
 .logo img {
-  width: 80px;
+  width: 100px;
 }
 
 .search-bar {
@@ -64,8 +62,6 @@ body {
 
 .buttons {
   display: flex;
-  /* gap: 10px; */
-  /* margin-top: 20px; */
 }
 
 .search-button {
@@ -76,6 +72,7 @@ body {
   padding: 8px 10px;
   cursor: pointer;
   font-size: 10px;
+  font-weight: 500;
 }
 
 .back-link {
