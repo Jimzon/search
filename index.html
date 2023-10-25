@@ -3,30 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
     <div class="logo">
         <img src="google_logo.png" alt="Google Logo">
     </div>
-    
-    <form id="search-form" action="https://www.google.com/search">
+
+    <form action="https://www.google.com/search">
         <div class="search-bar">
             <input type="text" name="q" id="search-input" autocomplete="off">
         </div>
-        
+
         <div class="buttons">
-            <button type="submit" id="google-search-button">Google Search</button>
-            <button type="submit" id="feeling-lucky-button" formaction="https://www.google.com/doodles">I'm Feeling Lucky</button>
+            <input type="submit" value="Google Search" class="search-button">
+            <a href="https://www.google.com/doodles" class="lucky-link">I'm Feeling Lucky</a>
         </div>
     </form>
-
-    <div class="links">
-        <a href="https://www.google.com/search?q=&amp;hl=en">Google Search</a>
-        <a href="https://www.google.com/imghp?hl=en">Google Images</a>
-        <a href="https://www.google.com/advanced_search?hl=en">Advanced Search</a>
-    </div>
 </body>
 </html>
