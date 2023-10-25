@@ -10,8 +10,39 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  /* justify-content: flex-end; */
+  padding: 10px;
+}
+
+.nav-container {
+  justify-content: space-between !important;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.nav-container img {
+  width: 50px;
+}
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #4285f4;
+  cursor: pointer;
+  font-size: 10px;
+}
+
 .logo {
-  margin-bottom: 20px;
+  padding: 20px;
+  /* width: 5px; */
+}
+.logo img {
+  width: 80px;
 }
 
 .search-bar {
@@ -22,7 +53,7 @@ body {
   align-items: center;
   padding: 10px;
   width: 500px;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 #search-input {
